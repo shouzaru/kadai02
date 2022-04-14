@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body{
+    text-align: center;
+}
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#document{
+    display: flex;
+    flex: wrap;
+    margin: 50px;
+}
+
+#document .status, #gameover {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#document dl{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#document dl dt{
+    width: 100px;
+}
+
+#document dl dd{
+    width: 150px;
+}
